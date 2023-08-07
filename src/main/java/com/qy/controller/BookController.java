@@ -16,6 +16,7 @@ public class BookController {
     private IBookService bookService;
 
     @GetMapping
+
     public R getAll(){
         return new R(true,bookService.list());
     }

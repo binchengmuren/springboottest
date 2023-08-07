@@ -8,7 +8,6 @@ public class SSMPApplication {
 
 	public static void main(String[] args) {
 
-		String s = new String();
 		SpringApplication.run(SSMPApplication.class, args);
 	}
 
